@@ -17,7 +17,8 @@ ic-stable-structures = "0.6.2"
 serde = "1.0.132"
 ic-cdk-macros = "0.8.1"
 candid-extractor = "0.1.2"
-rand = "0.8.5"
+rand = "0.7.3"
 uuid = {version="1.7.0",features=["v4"]}
 imp = "0.1.0"
 getrandom = { version = "0.2.3", features = ["js"]}
+tiny-bip39 = "0.7.3"
