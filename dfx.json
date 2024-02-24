@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "chessGame_backend": {
+      "candid": "src/chessGame_backend/chessGame_backend.did",
+      "package": "chessGame_backend",
+      "type": "rust"
+    },
+    "chessGame_frontend": {
+      "dependencies": [
+        "chessGame_backend"
+      ],
+      "source": [
+        "src/chessGame_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
