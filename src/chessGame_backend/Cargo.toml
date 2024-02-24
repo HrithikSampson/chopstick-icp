@@ -20,5 +20,5 @@ candid-extractor = "0.1.2"
 rand = "0.7.3"
 uuid = {version="1.7.0",features=["v4"]}
 imp = "0.1.0"
-getrandom = { version = "0.2.3", features = ["js"]}
+getrandom = { version = "0.2.4", features = ["js"]}
 tiny-bip39 = "0.7.3"

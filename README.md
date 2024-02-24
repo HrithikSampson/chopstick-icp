@@ -1,4 +1,21 @@
-# chessGame
+# Chopsticks
+
+This is not a chess game but a chopsticks game. I am really still in an error and cant resolve it yet
+
+![alt text](image.png)
+
+Chopsticks is a hand game played in past time
+
+
+Rules:
+Each player starts with one finger pointed out on each of their hands.
+Players take turns to tap one hand against another hand (either their own or their opponent's) to "transfer" fingers.
+When tapping another player's hand, the number of fingers on the tapping hand is added to the tapped hand. For example, if a player with 1 finger extended on their hand taps an opponent's hand with 2 fingers extended, the opponent's hand now has 3 fingers extended.
+If a player's hand reaches exactly 5 fingers, that hand is considered "dead" or out of the game, and it must be put behind the player's back or closed into a fist.
+If tapping one of their own hands with the other, the total number of fingers is distributed evenly between the two hands if possible. If the sum is odd, the player can choose how to distribute the fingers.
+The goal is to force both of the opponent's hands out of the game.
+Winning:
+A player wins by making both of the opponent's hands reach 5 fingers and thus become "dead".
 
 Welcome to your new chessGame project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
