@@ -9,6 +9,15 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.10"
-ic-cdk = "0.12"
-ic-cdk-timers = "0.6" # Feel free to remove this dependency if you don't need timers
+
+candid = "0.10.3"
+ic-cdk = "0.12.1"
+ic-cdk-timers = "0.6.0" # Feel free to remove this dependency if you don't need timers
+ic-stable-structures = "0.6.2"
+serde = "1.0.132"
+ic-cdk-macros = "0.8.1"
+candid-extractor = "0.1.2"
+rand = "0.8.5"
+uuid = {version="1.7.0",features=["v4"]}
+imp = "0.1.0"
+getrandom = { version = "0.2.3", features = ["js"]}
